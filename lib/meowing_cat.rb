@@ -1,7 +1,9 @@
 ## code your solution here. 
 
 class Cat 
-  catName :name 
+  attr_accessor :name 
   
-  catSound :meow 
+  def meow 
+    puts "meow!"
+  end 
 end 
